@@ -21,6 +21,7 @@ def get_smallest(number_list):
 
 def get_mean(number_list):
     cnt = len(number_list)
+    sum = 0
     for item in number_list :
         sum += item
     mean = sum/len
