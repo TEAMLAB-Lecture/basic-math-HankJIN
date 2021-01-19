@@ -24,7 +24,7 @@ def get_mean(number_list):
     sum = 0
     for item in number_list :
         sum += item
-    mean = sum/len
+    mean = sum/cnt
     return mean
 
 
